@@ -1,0 +1,86 @@
+:root {
+  --base03: #002b36;
+  --base02: #073642;
+  --base01: #586e75;
+  --base00: #657b83;
+  --base0: #839496;
+  --base1: #93a1a1;
+  --base2: #eee8d5;
+  --base3: #fdf6e3;
+  --yellow: #b58900;
+  --orange: #cb4b16;
+  --red: #dc322f;
+  --magenta: #d33682;
+  --violet: #6c71c4;
+  --blue: #268bd2;
+  --cyan: #2aa198;
+  --green: #859900;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--base02);
+  color: var(--cyan);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tablink {
+  cursor: pointer;
+  background-color: var(--base03);
+  border: none;
+  outline: none;
+  color: var(--green);
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 33%;
+  float: left;
+  text-shadow: 4px 4px 2px var(--base03);
+}
+
+.tablink:hover {
+  background-color: var(--base02);
+}
+
+.tabcontent {
+  justify-content: left;
+  text-align: left;
+  color: var(--base00);
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+h1 {
+  color: var(--blue);
+  text-shadow: 4px 4px 2px var(--base03);
+}
+
+h2 {
+  color: var(--yellow);
+  font-size: large;
+  margin-left: 20%;
+  text-shadow: 4px 4px 2px var(--base03);
+}
+
+p {
+  color: var(--cyan);
+  font-size: 20px;
+  text-shadow: 4px 4px 2px var(--base03);
+  margin-left: 20%;
+}
+
+img {
+  width: 50%;
+  margin-left: 20%;
+  box-shadow: 4px 4px 2px var(--base03);
+}
+
+a {
+  color: var(--violet);
+}
